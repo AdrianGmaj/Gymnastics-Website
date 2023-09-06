@@ -23,20 +23,20 @@ body {
   }
 }
 
-// li {
-//   list-style: none;
-// }
+li {
+  list-style: none;
+}
 
-// a:link,
-// a:visited {
-//   text-decoration: none;
-//   color: var(--color-quinary);
-//   font-weight: font-weight(font-weight-light);
-//   letter-spacing: 0.2rem;
-//   font-size: font-size(font-size-small);
-// }
+a:link,
+a:visited {
+  text-decoration: none;
+  color: var(--color-quinary);
+  font-weight: font-weight(font-weight-light);
+  letter-spacing: 0.2rem;
+  font-size: font-size(font-size-small);
+}
 
-// i {
-//   color: var(--color-primary);
-//   font-size: font-size(font-size-medium);
-// }
+i {
+  color: var(--color-primary);
+  font-size: font-size(font-size-medium);
+}
