@@ -1,13 +1,12 @@
-let checkbox = document.querySelector(`input[name="theme"]`);
+let checkbox = document.querySelector('input[name="theme"]');
 let htmlElement = document.documentElement;
-console.log(htmlElement);
 
 checkbox.addEventListener("change", () => {
   if (checkbox.checked) {
-    smoothTrans()
+    smoothTrans();
     htmlElement.setAttribute("data-theme", "dark");
   } else {
-    smoothTrans()
+    smoothTrans();
     htmlElement.setAttribute("data-theme", "light");
   }
 });
